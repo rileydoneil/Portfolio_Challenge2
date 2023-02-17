@@ -2,6 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   line-height: 1.3;
+  background-color: #edeef6;
 }
 
 header {
@@ -55,55 +56,55 @@ nav a:hover {
 }
 
 main {
-  display: flex;
-  flex: 1 1 0;
+  /* display: flex; */
+  /* flex: 1 1 0; */
   max-width: 1200px;
+  min-width: 100%;
   margin: 2% auto;
 }
 
-/* section {
+section {
   flex: 1 1 0;
   padding-right: 5%;
   display: flex;
   flex-direction: column; 
-} */
+
+}
 
 article {
   display: flex;
-  flex-direction: row;
   border-bottom: 1px solid #d8a47f;
-  align-items: flex-start;
 }
 
 article h2 {
-  font-size: 4vh;
-  text-align: center;
+  font-size: 7vh;
+  text-align:end;
+  align-items: flex-start;
   color: #495674;
-  width: min-content;
   margin: .1em;
   padding: .3em;
+  padding-right: .2em;
   border-radius: 3px;
-  width: min-content;
-  border-right: 12px #495674;
+  width: 200px;
+  height: stretch;
+  border-right: 8px solid #495674;
   background-color: red;
 }
 
-article p {
+
+
+article div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin: 2% 0;
-  font-size: 110%;
+  font-size: 100%;
   /* flex-direction: column; */
 }
 
-article ul {
-  margin-left: 5%;
-  font-size: 110%;
-  list-style: circle;
-}
-
-input, button {
-  width: 100%;
-  margin: 2% 0;
-  padding: 1%;
+div a {
+  color: #13293d;
+  text-decoration: underline;
 }
 
 footer {
@@ -114,10 +115,58 @@ footer {
   color: #fff;
 }
 
-.banner {
-  display: flex;
-  height: 100vh;
+/* Makes background my cover phote */
+.IDPhoto {
+    background-image:url(../images/ID.jpeg);
+    width: 15%;
+    height: auto;
+}
+
+.big-box {
   width: 100%;
+  height: 100%;
+}
+
+/* Got this from  https://blog.logrocket.com/responsive-image-gallery-css-flexbox/ where I learned about how to force fit pictures in boxes*/
+.image-gallery{
+  display: flex;
+  justify-content: center;
+  border: 3px solid #94caca;
+  gap: 10px;
+  flex-shrink: 1;
+  /* flex-direction: column; */
+  /* width: 1000px;
+  height: 700px; */
+}
+
+.image-gallery div{
+    flex-basis: 250px; 
+}
+.image-gallery div img {
+  object-fit: cover;
+  max-width: 50%;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+.contact {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  text-align: center;
+  font-size: large;
+  color: #495674;
+  margin: 2%;
+  padding: 0%;
+}
+
+.banner {
+  height: 100px;
+  width: 1050px;
+  flex: 1 1 0;
+  
   /* background-image: url("./assets/images/360_F_218185587_P4zituDtWJOfClUKL6merI0BgLMIxoeC.jpg" ); */
   background-size: cover;
 }
