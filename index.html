@@ -14,38 +14,53 @@
     <h1>Riley O'Neil</h1>
     <nav>
       <ul>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Resume</a></li>
+        <li><a href="#About_Me">About Me</a></li>
+        <li><a href="#Work">Work</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <!-- opens new tab to display the resume ref: https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/ -->
+        <li><a href="./assets/images/resume 2020.pdf" target="_blank">Resume</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <!-- <div class="banner">
-      <img src="./assets/images/360_F_218185587_P4zituDtWJOfClUKL6merI0BgLMIxoeC.jpg" alt="colors mixing on black background">
-    </div> -->
-    <section>
+    <section class="banner">
+      <img src="./assets/images/banner.jpg" alt="">
+    </section>
+    <section id="About_Me">
       <article>
-        <h2>About Me</h2>
+        <h2 class="IDPhoto">About Me</h2>
         <div>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore!</p>
-       </div>   
-       <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore!</p>
         </div>  
       </article>
+    </section>
+
+    <section id="Work">
       <article>
         <h2>Work</h2>
-        <div>
-          <p>
-            Heres a thing
-          </p>
-        </div>
+        <div class="image-gallery">
+            <div >
+              <img src="./assets/images/image 1.jpg" alt="">
+            </div>
+            <div>
+
+            </div>
+       </div>   
       </article>
+    </section>
+
+    <section id="Contact">
       <article>
         <h2>Contact Me</h2>
+        <div class="contact">
+          <a href="Tel: xxx-xxx-xxxx">(xxx)xxx-xxxx</p>
+          <a href = "mailto: w1uvlasdq@mozmail.com">w1uvlasdq@mozmail.com</a>
+          <a href="https://www.github.com/rileydoneil/">Github</a>
+       </div>   
       </article>
     </section>
   </main>
