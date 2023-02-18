@@ -10,7 +10,6 @@ This lesson taught me how tricky working with flexboxes can be and how to plan h
 
 ## View Live Site
 
-https://rileydoneil.github.io/Horiseon-Refactor/
-
+https://rileydoneil.github.io/Portfolio_Challenge2/
 
 [MIT](https://choosealicense.com/licenses/mit/)
