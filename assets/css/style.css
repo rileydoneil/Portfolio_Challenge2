@@ -194,6 +194,34 @@ footer {
   flex-direction: column-reverse;
 }
 
+.item-4 {
+  background-image: url(../images/image\ 4.jpg);
+  display: flex;
+  flex-wrap: wrap;
+  object-fit: cover;
+  min-width: 49%;
+  height: 100px;
+  border-radius: 5px;
+  background-position: center;
+  background-size: 100%;
+  opacity: 80%;
+  flex-direction: column-reverse;
+}
+
+.item-5 {
+  background-image: url(../images/image\ 5.jpg);
+  display: flex;
+  flex-wrap: wrap;
+  object-fit: cover;
+  min-width: 49%;
+  height: 100px;
+  border-radius: 5px;
+  background-position: center;
+  background-size: 100%;
+  opacity: 80%;
+  flex-direction: column-reverse;
+}
+
 /* makes picture not opaque when cursor is on top */
 .image-gallery :hover {
   opacity: 100%;
